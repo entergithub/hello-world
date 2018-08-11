@@ -1,0 +1,10 @@
+entity Student {
+	name String
+    id Integer
+}
+
+paginate Student with pagination
+
+
+// Set an angular suffix
+angularSuffix * with mySuffix
